@@ -1,3 +1,5 @@
+let botaocal = document.querySelector('#calcular').addEventListener('click', calculomedia)
+
 function calculomedia(){
     let nota01 = Number(document.querySelector('#nota01').value)
     let nota02 = Number(document.querySelector('#nota02').value)
